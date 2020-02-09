@@ -1,0 +1,39 @@
+<html>
+    <head>
+        
+            
+
+        <link rel="stylesheet" type="text/css" href="design.css">
+
+        
+    </head>
+    <script src="function.js"></script>
+    <body>
+        <div class="d1">
+            <h1 class="h">My To-Do List</h1>
+        <input type="text" id="item" placeholder="Enter your text">
+        <span>
+            <button onClick="newEle()" id="add">
+                Add
+            </button>
+        </span>
+        </div>
+       
+        <ul id="list">
+            <li class="checked">
+                Go to office
+            </li>
+            <li>
+                Work on kubernetes
+            </li>
+            <li>
+                Work on Openshift
+            </li>
+            <li>
+                Complete Javascript assignment
+            </li>
+        </ul>
+        <script>appendButton()</script>
+          
+    </body>
+</html>
